@@ -1,0 +1,17 @@
+.main-banner {
+  width: 100%;
+  height: 390px;
+  background-image: url(../img/main-theme.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+.to-buy {
+  @extend %button;
+  padding: 11px 48px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+}
